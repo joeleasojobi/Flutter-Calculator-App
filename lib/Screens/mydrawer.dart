@@ -39,7 +39,7 @@ class MyDrawer extends StatelessWidget {
             onTap: (){
               Navigator.push(context, MaterialPageRoute(builder: (context)=>Multiply()));
             },
-            leading: Icon(Icons.star),
+            leading: Icon(Icons.star_border_outlined),
             title: Text("Multiplication"),
           ),
           ListTile(
